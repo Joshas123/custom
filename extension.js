@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "Joshas";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,16 +46,16 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
-      language: "english",
+      botName: "Gatavas",
+      language: "lithuania",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
-      startupVolume: 0, // 0-100
-      startupEmoji: false, // true or false
+      startupVolume: 10, // 0-100
+      startupEmoji: true, // true or false
       autowoot: true,
-      autoskip: false,
+      autoskip: true,
       smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 120,
@@ -68,17 +68,17 @@
       maximumLocktime: 10,
       cycleGuard: true,
       maximumCycletime: 10,
-      voteSkip: false,
-      voteSkipLimit: 10,
+      voteSkip: true,
+      voteSkipLimit: 5,
       historySkip: false,
       timeGuard: true,
-      maximumSongLength: 10,
+      maximumSongLength: 5,
       autodisable: false,
       commandCooldown: 30,
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
-      ["theme", "This song does not fit the room theme. "],
+      ["Erotika", "Šioje dainoje per daug erotikos "],
       ["op", "This song is on the OP list. "],
       ["history", "This song is in the history. "],
       ["mix", "You played a mix, which is against the rules. "],
@@ -92,7 +92,7 @@
       motdInterval: 5,
       motd: "Temporary Message of the Day",
       filterChat: true,
-      etaRestriction: false,
+      etaRestriction: true,
       welcome: true,
       opLink: null,
       rulesLink: null,
